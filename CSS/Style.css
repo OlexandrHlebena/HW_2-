@@ -1,0 +1,94 @@
+.box_1 {
+    background-color: rgb(79, 76, 76);
+    border: black solid 8px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+.header {
+    border: black solid 2px;
+    border-bottom-color: aquamarine;
+    text-align: center;
+    height: 80px;
+
+    width: 80%;
+    max-width: 550px;
+    margin: 1em auto;
+    padding: 1em;
+    border-radius: 5px;
+    background: rgb(1, 1, 1) radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.65), rgba(0, 0, 0, 0.35));
+    box-shadow:
+    inset rgba(0,0,0,.6) 0 -3px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    rgba(0,0,0,.8) 0 3px 8px -3px;
+    
+    position: absolute;
+    left: 10px;
+    bottom: 280px;
+}
+.header h1 {
+    color: aqua;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+.header p {
+    color: aliceblue;
+    font-size: x-small;
+    margin: 0px;
+    
+}
+
+ul {
+    padding-left: 1px;
+    margin-top: 120px;
+    list-style-type: none; 
+}
+ul button:nth-child(1) {
+    padding-left: 40px;
+    background-image: url(../images/korzynka.png);
+    background-position: 0 0;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+ul button:nth-child(2) {
+    padding-left: 40px;
+    background-image: url(../images/rozmiry.png);
+    background-position: 0 0;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+ul button:nth-child(3) {
+    padding-left: 40px;
+    background-image: url(../images/dostavka.png);
+    background-position: 0 0;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+ul button:nth-child(4) {
+    padding-left: 40px;
+    background-image: url(../images/kontakty.png);
+    background-position: 0 0;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+ul button:nth-child(5) {
+    padding-left: 40px;
+    background-image: url(../images/otzyvy.png);
+    background-position: 0 0;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+ul button{
+    width: 100%;
+    height: 40px;
+    
+    background-color: rgb(48, 47, 47);
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    list-style-position: inside;
+ }
+
+ 
